@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="flights/style.css" />
+    <link rel="stylesheet" href="Landing Page/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cart Flight</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav
+      class="navbar navbar-expand-lg sticky-top shadow p-3 mb-5 bg-body-tertiary rounded"
+      id="navbar1"
+    >
+      <div class="container-xl">
+        <a class="navbar-brand" href="/"
+          ><img src="/Landing Page/Assets/LOGO TRAVGO 2 4.png" alt=""
+        /></a>
+        <div class="step">
+          <h5>1.Book &nbsp;>&nbsp;</h5>
+          <h5>&nbsp;2.Payment &nbsp;>&nbsp;</h5>
+          <h5>&nbsp;3.Done</h5>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-center d-none" data-js="nav-user-state">
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#">Favorites</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#">My Booking</a>
+            </li>
+            <li
+              class="nav-item me-4 user-name-text ms-auto d-flex align-items-center"
+              data-js="user-name-text"
+            >
+              <a class="nav-link" href="#">
+                <!-- put user name here in JS -->
+              </a>
+              <img
+                class="profile-picture"
+                src="../assets/admin-pp.png"
+                width="40px"
+                height="40px"
+              />
+            </li>
+          </ul>
+          <div data-js="nav-guest-state" class="d-none">
+            <a href="/login.html">
+              <button class="button-primary me-2" id="login-btn" style="margin-right: 1rem">
+                Sign In
+              </button>
+            </a>
+            <a href="/signup.html">
+              <button class="button-secondary" id="signup-btn">Sign Up</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--navbar end-->
+    <!-- start main -->
+    <main>
+      <div class="alert">
+        <h4>Please complete your booking in</h4>
+        &nbsp;&nbsp;
+        <div class="time">
+          <h4>00</h4>
+          <h4>:</h4>
+          <h4>00</h4>
+          <h4>:</h4>
+          <h4>59</h4>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="detail">
+          <div class="booking-details">
+            <h3>Booking Details</h3>
+            <div class="field1">
+              <select name="" id="">
+                <option value="">Title</option>
+              </select>
+              <div class="name">
+                <input type="text" placeholder="Enter Your Full Name" />
+                <h6>
+                  Fill in according to ID card / passport / driver's license (punctuation marks and
+                  titles)
+                </h6>
+              </div>
+            </div>
+            <div class="email">
+              <input type="email" placeholder="Email Adress" />
+              <h6>E-ticket will be sent to this email address</h6>
+            </div>
+            <div class="telephone">
+              <span class="no">
+                <select name="" id="">
+                  <option value="">(+62)</option>
+                </select>
+                <h6>Country Code</h6>
+              </span>
+              <span class="telle">
+                <input type="tel" placeholder="Phone Number" />
+                <h6>Phone Number</h6>
+              </span>
+            </div>
+          </div>
+          <div class="passenger-details">
+            <h3>Passenger Details</h3>
+            <input type="text" placeholder="Passenger 1: Adult" />
+            <div class="field1">
+              <select name="" id="">
+                <option value="">Title</option>
+              </select>
+              <span class="fullname">
+                <input type="text" placeholder="Enter Your Full Name" data-js="passenger-name" />
+                <h6>
+                  Fill in according to ID card / passport / driver's license (punctuation marks and
+                  titles)
+                </h6>
+              </span>
+            </div>
+          </div>
+
+          <div class="extra-facility">
+            <h3>Extra Facility</h3>
+            <div>
+              <div>
+                <img src="../assets/Baggage.png" alt="" />
+                <span>
+                  <h4>Baggage</h4>
+                  <h5>Increase your cargo capacity</h5>
+                </span>
+              </div>
+              <button>Book</button>
+            </div>
+            <br />
+            <hr />
+            <br />
+            <div>
+              <div>
+                <img src="../assets/Seat.png" alt="" />
+                <span>
+                  <h4>Seat</h4>
+                  <h5>Choose your seat on the plane</h5>
+                </span>
+              </div>
+              <button>Select Seat</button>
+            </div>
+          </div>
+
+          <div class="extra-protection">
+            <h3>Extra Protection</h3>
+            <div>
+              <div>
+                <img src="../assets/mdi_sun-protection.png" alt="" />
+                <span>
+                  <h4>Full Protection</h4>
+                  <h5>Compensation up to IDR 500,000,000 for various unforeseen risks.</h5>
+                </span>
+              </div>
+              <button>Details</button>
+            </div>
+            <br />
+            <hr />
+            <br />
+            <div>
+              <div>
+                <img src="../assets/mdi_airplane-clock.png" alt="" />
+                <span>
+                  <h4>Delay Protection</h4>
+                  <h5>IDR 200,000 compensation per 2 hours for any risk of delay</h5>
+                </span>
+              </div>
+              <button>Details</button>
+            </div>
+            <br />
+            <hr />
+            <br />
+            <div>
+              <div>
+                <img src="../assets/material-symbols_lock-clock-sharp.png" alt="" />
+                <span>
+                  <h4>Plus Delay Protection</h4>
+                  <h5>Guarantee flight delays over 90 minutes up to IDR 600,000</h5>
+                </span>
+              </div>
+              <button>Details</button>
+            </div>
+            <br />
+            <hr />
+            <br />
+            <div>
+              <div>
+                <img src="../assets/Vector.png" alt="" />
+                <span>
+                  <h4>Baggage Insurance</h4>
+                  <h5>Protect baggage from damage or loss up to IDR 25,000,000</h5>
+                </span>
+              </div>
+              <button>Details</button>
+            </div>
+            <br />
+            <hr />
+            <br />
+            <div>
+              <div>
+                <img src="../assets/umbrella.png" alt="" />
+                <span>
+                  <h4>Regular Protection</h4>
+                  <h5>Cover medical expenses due to COVID-19 or accidents</h5>
+                </span>
+              </div>
+              <button>Details</button>
+            </div>
+          </div>
+          <div class="button-payment" data-js="btn-submit">
+            <button>proceed to payment</button>
+          </div>
+        </div>
+        <div class="total-payment">
+          <h3>Flight</h3>
+          <div class="destination">
+            <div>
+              <h4 data-js="flight-from-place">Denpasar</h4>
+              <img src="../assets/mdi_airplane-takeoff.png" alt="pesawat" />
+              <h4 data-js="flight-to-place">Ambon</h4>
+            </div>
+            <h4 style="color: aqua">Detail</h4>
+          </div>
+          <div class="schedule">
+            <img data-js="flight-airline-logo" width="100px" />
+            <div>
+              <h4>
+                <span data-js="flight-from-code"></span>-<span data-js="flight-to-code"></span> -
+                <span data-js="flight-departure-time"></span>
+              </h4>
+            </div>
+          </div>
+          <br />
+
+          <div class="policy">
+            <h4>Policy</h4>
+
+            <div class="information1">
+              <img src="../assets/yellow.png" alt="checklist-yellow" />
+              <h4>Extra Baggage</h4>
+            </div>
+            <div class="information2">
+              <img src="../assets/red.png" alt="checklist-red" />
+              <h4>Refund Available</h4>
+            </div>
+          </div>
+          <hr />
+          <div class="total">
+            <h3>Total Payment</h3>
+            <h3 data-js="flight-price" style="color: aqua">-</h3>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- end main -->
+    <footer>© 2023 PT. Travel Go Go Go. All Right Reserved.</footer>
+
+    <!-- JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.6/axios.min.js"
+      integrity="sha512-06NZg89vaTNvnFgFTqi/dJKFadQ6FIglD6Yg1HHWAUtVFFoXli9BZL4q4EO1UTKpOfCfW5ws2Z6gw49Swsilsg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="js/axios.js"></script>
+    <script src="js/user.js"></script>
+    <script src="flights/app.js" type="module"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

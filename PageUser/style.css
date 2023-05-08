@@ -1,0 +1,420 @@
+body {
+  background: rgb(242, 242, 242);
+}
+
+/* profile image change */
+#profile .upload {
+  width: 100px;
+  position: relative;
+  margin: auto;
+  margin-top: 15px;
+}
+
+#profile .upload img {
+  border-radius: 50%;
+  border: 6px solid #51ade5;
+}
+
+#profile .upload .round {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #51ade5;
+  width: 32px;
+  height: 32px;
+  line-height: 33px;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#profile .upload .round input[type='file'] {
+  position: absolute;
+  transform: scale(2);
+  opacity: 0;
+}
+
+#profile input[type='file']::-webkit-file-upload-button {
+  cursor: pointer;
+}
+
+/* nama profile */
+#profile .namaProfile {
+  margin-top: 5px;
+}
+
+#profile .namaProfile h5 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 14px;
+  color: #51ade5;
+}
+
+#profile .namaProfile h6 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 10px;
+  color: #2dcc71;
+}
+
+/* menu profile */
+#profile .col-md-2 {
+  margin-top: 25px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+#profile .menu-profile h5 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 10px;
+  color: #3871c1;
+}
+
+#profile .menu-profile .material-symbols-outlined {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 40;
+  margin-right: 7px;
+}
+
+#profile .menu-profile a {
+  display: flex;
+  margin-bottom: 9px;
+  color: #bdbdbd;
+  text-decoration: none;
+}
+
+#profile .menu-profile a h6 {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 12px;
+}
+
+#profile .menu-profile .menu1 :hover {
+  color: #3871c1;
+}
+
+#profile .menu-profile a h6 {
+  margin: auto 0;
+}
+
+#profile .menu-profile .active {
+  color: #3871c1;
+}
+
+/* isi menu account */
+#profile .akun0 {
+  margin-top: 25px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+#profile .top-akun {
+  margin-bottom: 5px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+#profile .top-akun h4 {
+  margin-bottom: 0;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 14px;
+  color: #1e1e1e;
+}
+
+#profile .top-akun span {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 10px;
+  color: #1e1e1e;
+}
+
+#profile .akun1 {
+  margin-top: 11px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background: #fafafa;
+  border-radius: 10px;
+}
+
+#profile .akun1 input {
+  background: #e0e0e0;
+}
+
+#profile .akun1 select {
+  background: #e0e0e0;
+}
+
+#profile .akun1 h5 {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 8px;
+  margin-bottom: 0;
+  color: #1e1e1e;
+}
+
+#profile .akun2 .akun-verif {
+  margin-top: 11px;
+  margin-left: 20px;
+  background: #fafafa;
+  border-radius: 10px;
+}
+
+#profile .akun2 input {
+  background: #e0e0e0;
+}
+
+#profile .akun2 h5 {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 8px;
+  margin-bottom: 0;
+  color: #1e1e1e;
+}
+
+#profile .akun2 a {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 10px;
+  margin-left: 20px;
+  color: #2f80ed;
+}
+
+#profile .akun2 {
+  position: relative;
+}
+
+#profile .akun2 button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 14px;
+  width: 97px;
+  height: 34px;
+  border: none;
+  color: #3871c1;
+  background: #f9d113;
+  border-radius: 32px;
+}
+
+/* My Booking */
+#myBooking .booking0 {
+  position: relative;
+  margin-top: 25px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+#myBooking .top-booking {
+  margin-bottom: 5px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+#myBooking .top-booking h4 {
+  margin-bottom: 0;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 14px;
+  color: #1e1e1e;
+}
+
+#myBooking .top-booking span {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 10px;
+  color: #1e1e1e;
+}
+
+/* navbok */
+#navbok .container {
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+#navbok .navbar-nav li a {
+  transition: 0.5s ease;
+  font-weight: 600;
+  font-size: 10px;
+  margin: auto;
+  margin-left: 5rem;
+  color: #d9d9d9;
+}
+
+#navbok .navbar-nav .active {
+  border-bottom: 2px solid #3871c1;
+  color: #3871c1;
+}
+
+#navbok .navbar-nav li a:hover {
+  color: #3871c1;
+}
+
+/* isi booking */
+#myBooking .col-md .row img {
+  margin: auto;
+  margin-left: 20px;
+  margin-right: 17px;
+  width: auto;
+  height: auto;
+}
+
+#myBooking .col-md .row h6 {
+  margin: auto;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 14px;
+  color: #1e1e1e;
+}
+
+#myBooking .col-md .con1 {
+  background: #e0e0e0;
+  border-bottom: 1px solid #bdbdbd;
+  height: 85px;
+}
+
+#myBooking .col-md .con2 {
+  border-bottom: 1px solid #bdbdbd;
+  height: 85px;
+}
+
+#myBooking .col-md .consp {
+  margin-bottom: 85px;
+}
+
+#myBooking .btn-bok button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 14px;
+  width: 97px;
+  height: 34px;
+  border: none;
+  color: #3871c1;
+  background: #f9d113;
+  border-radius: 32px;
+}
+
+/* booking details */
+#myBooking #bokDetails {
+  position: relative;
+  margin-left: 24px;
+  margin-top: 25px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+#myBooking #bokDetails .top-details {
+  margin-bottom: 5px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+#myBooking #bokDetails .top-details h4 {
+  margin-bottom: 0;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 14px;
+  color: #1e1e1e;
+}
+
+/* depart tiket */
+#myBooking #bokDetails .depart {
+  margin-left: 5px;
+}
+
+#myBooking #bokDetails .depart span {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 10px;
+  color: #1e1e1e;
+}
+
+#myBooking #bokDetails .isi-depart {
+  margin-top: 5px;
+  border: 1px solid #bdbdbd;
+  border-radius: 10px;
+}
+
+#myBooking #bokDetails .isi-depart .row {
+  margin-top: 8px;
+  margin-left: 1px;
+}
+
+#myBooking #bokDetails .isi-depart span {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 8px;
+  color: #828282;
+}
+
+#myBooking #bokDetails .isi-depart h4 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 10px;
+  color: #1e1e1e;
+}
+
+/* return tiket */
+#myBooking #bokDetails .return {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+#myBooking #bokDetails .return span {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 10px;
+  color: #1e1e1e;
+}
+
+#myBooking #bokDetails .isi-return {
+  margin-top: 5px;
+  margin-bottom: 62px;
+  border: 1px solid #bdbdbd;
+  border-radius: 10px;
+}
+
+#myBooking #bokDetails .isi-return .row {
+  margin-top: 8px;
+  margin-left: 1px;
+}
+
+#myBooking #bokDetails .isi-return span {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 8px;
+  color: #828282;
+}
+
+#myBooking #bokDetails .isi-return h4 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 10px;
+  color: #1e1e1e;
+}
+
+#myBooking #bokDetails .btn-det button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 14px;
+  width: 97px;
+  height: 34px;
+  border: none;
+  color: #3871c1;
+  background: #f9d113;
+  border-radius: 32px;
+}

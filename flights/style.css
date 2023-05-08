@@ -1,0 +1,258 @@
+body {
+  background-color: #e0e0e0;
+  font-family: 'Poppins', sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+.wrapper,
+.navbar {
+  padding: 20px 100px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.navbar div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.navbar img {
+  height: 60%;
+}
+.image-profile {
+  display: flex;
+  align-items: center;
+}
+.step {
+  margin-left: 60px;
+}
+.step :nth-child(2),
+.step :nth-child(3) {
+  color: #e0e0e0;
+}
+main .alert {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  align-items: center;
+}
+.time {
+  display: flex;
+  color: #000;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+.time :nth-child(1),
+.time :nth-child(3),
+.time :nth-child(5) {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #f9d113;
+  font-family: 'Poppins', sans-serif;
+}
+.time :nth-child(2),
+.time :nth-child(4) {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  padding: 5px;
+}
+.wrapper {
+  display: flex;
+  display: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+.detail {
+  flex: 2;
+}
+.total-payment {
+  flex: 1;
+  font-family: 'Poppins', sans-serif;
+}
+.booking-details,
+.passenger-details,
+.extra-facility,
+.extra-protection,
+.total-payment {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.detail h3 {
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.extra-protection div,
+.extra-facility div {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+}
+
+.button-payment {
+  display: flex;
+  justify-content: right;
+  font-family: 'Poppins', sans-serif;
+}
+
+.button-payment button {
+  background-color: #f9d113;
+  color: #3871c1;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer {
+  text-align: center;
+  background-color: #ebebeb;
+  padding: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.total-payment {
+  height: max-content;
+  margin-left: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.policy div {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+}
+
+.destination,
+.destination div,
+.schedule,
+.total {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.extra-facility button,
+.extra-protection button {
+  background-color: #2f80ed;
+  color: #fff;
+  border-radius: 15px;
+  width: 100px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.field1 select,
+.email input,
+.name input,
+.telle input,
+.no select,
+.passenger-details input {
+  background-color: #efefef;
+  color: #828282;
+  padding: 5px;
+  border-radius: 15px;
+  border: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.field1 {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+}
+
+.telephone {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+}
+
+.name,
+.name input {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.passenger-details input {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.fullname text {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.email input {
+  width: 50%;
+  font-family: 'Poppins', sans-serif;
+}
+
+h6 {
+  font-weight: 500;
+  color: #828282;
+  font-family: 'Poppins', sans-serif;
+}
+
+.total-payment {
+  font-weight: 100;
+}
+
+.information1 {
+  color: #f9d113;
+}
+
+.information2 {
+  color: red;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+[data-js='user-name-text'] {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.step {
+  justify-content: flex-start !important;
+}

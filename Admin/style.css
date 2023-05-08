@@ -1,0 +1,824 @@
+body {
+  background: #2c3892;
+}
+
+/* navbar admin */
+#navadm {
+  background: #2c3892;
+}
+
+#navadm form {
+  max-width: 276px;
+  position: relative;
+}
+
+#navadm form input {
+  background: #fafafa;
+  border-radius: 30px;
+  width: 100%;
+  position: relative;
+}
+
+#navadm form button {
+  position: absolute;
+  right: 0;
+  border: none;
+  top: 1px;
+  margin-right: 5px;
+  color: #828282;
+}
+
+/* profile admin */
+#navadm .profAdm {
+  width: 175px;
+  height: 65px;
+  background: #fafafa;
+  border-radius: 60px;
+}
+
+#navadm .profAdm h5 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: -2px;
+  color: #000000;
+}
+
+#navadm .profAdm span {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+
+#navadm .profAdm img {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  margin-right: 7px;
+}
+
+/* menu admin */
+.menu-admin .col-md-3 {
+  background: #2c3892;
+}
+
+.menu-admin .menuAdm {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-top: 30px;
+}
+
+.menu-admin .menuAdm a {
+  padding-left: 10px;
+  padding-top: 7px;
+  display: flex;
+}
+
+.menu-admin .menuAdm a h6 {
+  margin-left: 20px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 20px;
+  color: #e0e0e0;
+}
+
+.menu-admin .menuAdm a span {
+  font-variation-settings: "FILL" 1, "wght" 500, "GRAD" 0, "opsz" 48;
+  color: #e0e0e0;
+}
+
+.menu-admin .active {
+  background: #e0e0e0;
+}
+
+.menu-admin .active a h6 {
+  color: #2c3892;
+}
+
+.menu-admin .active a span {
+  color: #2c3892;
+}
+
+.menu-admin .menuAdm :hover {
+  border: 3px solid #e0e0e0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+/* isi dashboard */
+.isi-dasboard {
+  background: #e0e0e0;
+}
+
+.isi-dasboard .top-isiDash .col-md .row {
+  margin: auto;
+  margin-top: 20px;
+  background: #fafafa;
+  border: 1px solid #2c3892;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+}
+
+.isi-dasboard .top-isiDash .col-md .row span {
+  margin-top: 10px;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 18px;
+  color: #1e1e1e;
+}
+
+.isi-dasboard .top-isiDash .col-md .row h5 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 40px;
+  color: #2c3892;
+}
+
+.isi-dasboard .top-isiDash .col-md .income {
+  height: 210px;
+  background: #2c3892;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+}
+
+.isi-dasboard .top-isiDash .col-md .income span {
+  margin: auto;
+  margin-bottom: 0;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 20px;
+  color: #e0e0e0;
+}
+
+.isi-dasboard .top-isiDash .col-md .income h5 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 48px;
+  color: #fafafa;
+}
+
+/* partner */
+#admPartner {
+  margin-top: 20px;
+}
+
+#admPartner .topPart {
+  height: 71px;
+  background: #2c3892;
+  border-radius: 16px 16px 0px 0px;
+}
+
+#admPartner .topPart h6 {
+  margin: auto 0;
+  margin-left: 20px;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 24px;
+  color: #fafafa;
+}
+
+#admPartner .isi-partner .row {
+  background: #fafafa;
+}
+
+#admPartner .isi-partner .filter {
+  margin-top: 10px;
+  background: #fafafa;
+  display: flex;
+}
+
+#admPartner .isi-partner .filter h6 {
+  margin-top: 8px;
+  margin-right: 20px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  color: #494949;
+}
+
+#admPartner .isi-partner .filter select {
+  margin: auto;
+  border: 1px solid #494949;
+  border-radius: 8px;
+}
+
+#admPartner .isi-partner .filter form {
+  max-width: 276px;
+  position: relative;
+}
+
+#admPartner .isi-partner .filter form input {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #000;
+  width: 100%;
+  position: relative;
+}
+
+#admPartner .isi-partner .filter form button {
+  position: absolute;
+  right: 0;
+  margin-right: 5px;
+}
+
+/* card parner */
+#admPartner .card-wrapper .card {
+  margin-top: 20px;
+  background: #e0e0e0;
+  width: 140px;
+  height: 190px;
+}
+
+#admPartner .card-wrapper .card img {
+  margin: 10px;
+}
+
+#admPartner .card-wrapper .card h5 {
+  margin-left: 10px;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 12px;
+  color: #000000;
+}
+
+#admPartner .card-wrapper .card p {
+  margin-left: 10px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 10px;
+  color: #000000;
+}
+
+/* add new partner */
+#addPartner {
+  background: #e0e0e0;
+}
+
+#addPartner .container {
+  margin-top: 25px;
+}
+
+#addPartner .container .top-Np {
+  height: 71px;
+  background: #2c3892;
+  border-radius: 16px 16px 0px 0px;
+}
+
+#addPartner .container .top-Np h4 {
+  margin: auto 0;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 24px;
+  color: #fafafa;
+}
+
+#addPartner .container .isi-Np {
+  background: white;
+}
+
+#addPartner .container .isi-Np form .formNp {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+#addPartner .container .isi-Np form label {
+  margin-bottom: 5px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  color: #000000;
+}
+
+#addPartner .container .isi-Np form input {
+  border: 1px solid #2c3892;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+}
+
+#addPartner .container .isi-Np form select {
+  border: 1px solid #2c3892;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+}
+
+#addPartner .container .isi-Np form textarea {
+  border: 1px solid #2c3892;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+}
+
+#addPartner .container .isi-Np form #uploadBtn {
+  display: none;
+}
+
+#addPartner .container .isi-Np form .formNp .upFile {
+  display: inline-block;
+  text-align: center;
+  padding-top: 7px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  color: #fafafa;
+  cursor: pointer;
+  user-select: none;
+  width: 110px;
+  height: 38px;
+  background: #2c3892;
+  border: 1px solid #2c3892;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+#addPartner .container .isi-Np form .formNp .box {
+  background: #2c3892;
+  height: 38px;
+  width: auto;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+#addPartner .container .isi-Np form .formNp .box span {
+  margin-left: 15px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  color: #fafafa;
+}
+
+#addPartner .container .isi-Np form .formNp #btnCabang {
+  margin-top: 10px;
+  background: #fafafa;
+  height: 38px;
+  width: 100%;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+  border: 1px solid #2c3892;
+  border-radius: 8px;
+}
+
+#addPartner .container .isi-Np form #btnSimpan {
+  margin-left: 86%;
+  margin-bottom: 25px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  color: #fafafa;
+  width: 110px;
+  height: 38px;
+  background: #2c3892;
+  border: 1px solid #2c3892;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+/* partner cabang */
+#newPartner {
+  background: #e0e0e0;
+}
+
+#newPartner .container {
+  margin-top: 25px;
+}
+
+#newPartner .container .top-Np {
+  height: 71px;
+  background: #2c3892;
+  border-radius: 16px 16px 0px 0px;
+}
+
+#newPartner .container .top-Np h4 {
+  margin: auto 0;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 24px;
+  color: #fafafa;
+}
+
+#newPartner .container .isi-Np {
+  background: white;
+}
+
+#newPartner .container .isi-Np form .formNp {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+#newPartner .container .isi-Np form label {
+  margin-bottom: 5px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  color: #000000;
+}
+
+#newPartner .container .isi-Np form input {
+  border: 1px solid #2c3892;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+}
+
+#newPartner .container .isi-Np form select {
+  border: 1px solid #2c3892;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+}
+
+#newPartner .container .isi-Np form textarea {
+  border: 1px solid #2c3892;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+}
+
+#newPartner .container .isi-Np form #uploadBtn {
+  display: none;
+}
+
+#newPartner .container .isi-Np form .formNp .upFile {
+  display: inline-block;
+  text-align: center;
+  padding-top: 7px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  color: #fafafa;
+  cursor: pointer;
+  user-select: none;
+  width: 110px;
+  height: 38px;
+  background: #2c3892;
+  border: 1px solid #2c3892;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+#newPartner .container .isi-Np form #alamatLengkap label {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 20px;
+  color: #494949;
+}
+
+#newPartner .container .isi-Np form .formNp .btnTipe {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  color: #fafafa;
+  width: 122px;
+  height: 38px;
+  margin-bottom: 10px;
+  background: #2c3892;
+  border: 1px solid #2c3892;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+#newPartner .container .isi-Np form .formNp .box1 {
+  position: relative;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 14px;
+  color: #828282;
+  margin-bottom: 15px;
+  height: 38px;
+  background: #fafafa;
+  border: 1px solid #2c3892;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+#newPartner .container .isi-Np form .formNp .box1 span {
+  margin-bottom: 5px;
+  margin-right: 5px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#newPartner .container .isi-Np form .formNp .box1 button {
+  background: transparent;
+  border: none;
+}
+
+#newPartner .container .isi-Np form .formNp .box1 p {
+  margin-left: 10px;
+  padding-top: 7px;
+}
+
+#newPartner .container .isi-Np form .btnAddCb {
+  margin-bottom: 30px;
+}
+
+#newPartner .container .isi-Np form .btnAddCb #btnKembali {
+  margin-left: 20px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  color: #2c3892;
+  width: 110px;
+  height: 49px;
+  background: #fafafa;
+  border: 1px solid #2c3892;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+#newPartner .container .isi-Np form .btnAddCb #btnSimpan2 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  color: #fafafa;
+  width: 110px;
+  height: 49px;
+  background: #2c3892;
+  border: 1px solid #2c3892;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin-left: 20.5rem;
+}
+
+/* user admin */
+#userAdmin {
+  background: #e0e0e0;
+}
+
+#userAdmin .container {
+  margin-top: 25px;
+}
+
+#userAdmin .top-userAdm {
+  background: #fafafa;
+  border-radius: 8px;
+  border: 1px solid #2c3892;
+}
+
+#userAdmin .top-userAdm .toUser {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#userAdmin .top-userAdm .toUser h5 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 18px;
+  color: #1e1e1e;
+}
+
+#userAdmin .top-userAdm .toUser h3 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 40px;
+  color: #2c3892;
+}
+
+#userAdmin .top-userAdm .toUser1 {
+  margin-top: 30px;
+  margin-left: 21rem;
+  position: relative;
+  width: 87px;
+  height: 28px;
+  background: #2c3892;
+  border: 1px solid #494949;
+  border-radius: 8px;
+}
+
+#userAdmin .top-userAdm .toUser1 button {
+  padding-left: -2px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 12px;
+  color: #fafafa;
+  height: 28px;
+  background: transparent;
+  border: none;
+}
+
+#userAdmin .top-userAdm .toUser1 span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #fafafa;
+}
+
+#userAdmin .top-userAdm .row img {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  width: 900px;
+}
+
+/* bottom user admin */
+#userAdmin .botUadm {
+  margin-bottom: 3rem;
+}
+
+#userAdmin .botUadm .N-userBot {
+  margin-left: 4px;
+  height: 50px;
+  background: #fafafa;
+  border-radius: 0 0 16px 16px;
+}
+
+#userAdmin .botUadm .N-user {
+  margin-left: 4px;
+  height: 71px;
+  background: #2c3892;
+  border-radius: 16px 16px 0px 0px;
+}
+
+#userAdmin .botUadm .row .col-md {
+  margin: auto;
+}
+
+#userAdmin .botUadm .row .col-md h4 {
+  margin-top: 2px;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 18px;
+  color: #fafafa;
+}
+
+#userAdmin .botUadm .row .col-md .toUser3 {
+  position: relative;
+  margin-left: 7rem;
+  width: 87px;
+  height: 28px;
+  background: #fafafa;
+  border: 1px solid #494949;
+  border-radius: 8px;
+}
+
+#userAdmin .botUadm .row .col-md .toUser3 button {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 12px;
+  color: #2c3892;
+  height: 28px;
+  background: transparent;
+  border: none;
+}
+
+#userAdmin .botUadm .row .col-md .toUser3 span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #2c3892;
+}
+
+#userAdmin .botUadm .N-user1 {
+  border-bottom: 2px solid #2c3892;
+  margin-left: 4px;
+  background: #fafafa;
+}
+
+#userAdmin .botUadm .N-user1 .NUAdm .imgAdm {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  width: 78px;
+  height: 68px;
+}
+
+#userAdmin .botUadm .N-user1 .NUAdm1 .namKo {
+  margin-top: 23px;
+}
+#userAdmin .botUadm .N-user1 .NUAdm1 h5 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  color: #1e1e1e;
+}
+
+#userAdmin .botUadm .N-user1 .NUAdm1 span {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 12px;
+  color: #1e1e1e;
+}
+
+#userAdmin .botUadm .N-user1 .NUAdm2 .btnGab .btnGab1 {
+  margin-right: 0;
+  border: 1px solid #2c3892;
+  border-radius: 10px 0 0 10px;
+  background: #e0e0e0;
+}
+
+#userAdmin .botUadm .N-user1 .NUAdm2 .btnGab .btnGab1 span {
+  margin-top: 5px;
+  color: #2c3892;
+  font-variation-settings: "FILL" 1;
+}
+
+#userAdmin .botUadm .N-user1 .NUAdm2 .btnGab {
+  margin-top: 1.7rem;
+}
+
+#userAdmin .botUadm .N-user1 .NUAdm2 .btnGab .btnGab2 {
+  margin-right: 0;
+  border: 1px solid #2c3892;
+  border-radius: 0 10px 10px 0;
+  background: #e0e0e0;
+}
+
+#userAdmin .botUadm .N-user1 .NUAdm2 .btnGab .btnGab2 span {
+  margin-top: 5px;
+  color: #2c3892;
+  font-variation-settings: "FILL" 1;
+}
+
+/* kanan user baru */
+#userAdmin .botUadm2 {
+  margin-bottom: 2rem;
+  padding-right: 28px;
+}
+#userAdmin .botUadm2 .tp-User {
+  margin-left: 4px;
+  height: 71px;
+  background: #2c3892;
+  border-radius: 16px 16px 0px 0px;
+}
+
+#userAdmin .botUadm2 .row .col-md {
+  margin: auto;
+}
+
+#userAdmin .botUadm2 .row .col-md h4 {
+  margin-top: 2px;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 18px;
+  color: #fafafa;
+}
+
+#userAdmin .botUadm2 .row .col-md .toUser4 {
+  position: relative;
+  margin-left: 7rem;
+  width: 87px;
+  height: 28px;
+  background: #fafafa;
+  border: 1px solid #494949;
+  border-radius: 8px;
+}
+
+#userAdmin .botUadm2 .row .col-md .toUser4 button {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 12px;
+  color: #2c3892;
+  height: 28px;
+  background: transparent;
+  border: none;
+}
+
+#userAdmin .botUadm2 .row .col-md .toUser4 span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #2c3892;
+}
+
+#userAdmin .botUadm2 .tp-User1 {
+  border-bottom: 2px solid #2c3892;
+  margin-left: 4px;
+  background: #fafafa;
+}
+
+#userAdmin .botUadm2 .tp-User1 .imgAdm1 {
+  margin-top: 28px;
+}
+
+#userAdmin .botUadm2 .tp-User1 .imgAdm2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#userAdmin .botUadm2 .tp-User1 .namKo1 {
+  margin-top: 23px;
+}
+
+#userAdmin .botUadm2 .tp-User1 .namKo1 h5 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  color: #1e1e1e;
+}
+
+#userAdmin .botUadm2 .tp-User1 .namKo1 span {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 12px;
+  color: #1e1e1e;
+}
+
+#userAdmin .botUadm2 .tp-User1 .namKo2 {
+  margin-top: 30px;
+}
+
+#userAdmin .botUadm2 .tp-User1 .namKo2 span {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 12px;
+  color: #494949;
+}
+
+#userAdmin .botUadm2 .tp-userBot {
+  margin-left: 4px;
+  height: 50px;
+  background: #fafafa;
+  border-radius: 0 0 16px 16px;
+}

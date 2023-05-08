@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pick-payment/style.css" />
+    <link rel="stylesheet" href="Landing Page/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>GOPayment</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg sticky-top shadow p-3 mb-5 bg-body-tertiary rounded"
+      id="navbar1"
+    >
+      <div class="container-xl">
+        <a class="navbar-brand" href="/"
+          ><img src="/Landing Page/Assets/LOGO TRAVGO 2 4.png" alt=""
+        /></a>
+        <div class="step">
+          <h5>1.Book &nbsp;>&nbsp;</h5>
+          <h5>&nbsp;2.Payment &nbsp;>&nbsp;</h5>
+          <h5>&nbsp;3.Done</h5>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-center d-none" data-js="nav-user-state">
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#">Favorites</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#">My Booking</a>
+            </li>
+            <li
+              class="nav-item me-4 user-name-text ms-auto d-flex align-items-center"
+              data-js="user-name-text"
+            >
+              <a class="nav-link" href="#">
+                <!-- put user name here in JS -->
+              </a>
+              <img
+                class="profile-picture"
+                src="../assets/admin-pp.png"
+                width="40px"
+                height="40px"
+              />
+            </li>
+          </ul>
+          <div data-js="nav-guest-state" class="d-none">
+            <a href="/login.html">
+              <button class="button-primary me-2" id="login-btn" style="margin-right: 1rem">
+                Sign In
+              </button>
+            </a>
+            <a href="/signup.html">
+              <button class="button-secondary" id="signup-btn">Sign Up</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- start main -->
+    <main>
+      <div class="alert">
+        <h4>Please complete your booking in</h4>
+        &nbsp;&nbsp;
+        <div class="time">
+          <h4>00</h4>
+          <h5>:</h5>
+          <h4>02</h4>
+          <h5>:</h5>
+          <h4>59</h4>
+        </div>
+      </div>
+      <div class="method">
+        <h3>Payment Method</h3>
+      </div>
+
+      <div class="method1">
+        <h4>Paypal</h4>
+        <div class="methodpaypal">
+          <img src="../assets/paypal-784404_960_720 1.png" />
+          <img src="../assets/V.png" />
+        </div>
+      </div>
+
+      <div class="method2">
+        <h4>Credit Card/Debit</h4>
+        <div>
+          <img src="../assets/visa-mastercard.png" />
+          <img src="../assets/V.png" />
+        </div>
+      </div>
+
+      <div class="method3">
+        <div>
+          <h4>Virtual Account</h4>
+          <h6>You can pay by transferring via ATM, virtual account & mobile banking</h6>
+        </div>
+        <div>
+          <img src="../assets/VA.png" />
+          <img src="../assets/V.png" />
+        </div>
+      </div>
+
+      <div class="method4">
+        <div>
+          <h4>Bank Transfer</h4>
+          <h6>You can pay by transferring via ATM, virtual account & mobile banking</h6>
+        </div>
+        <div>
+          <img src="../assets/Bank Account.png" />
+          <img src="../assets/V.png" />
+        </div>
+      </div>
+
+      <div class="method5">
+        <div>
+          <h4>Instan Payment</h4>
+          <h4>───────────────────────────────────────────────────────</h4>
+          <a href="/gopay-payment" data-js="gopay-payment-link" class="gopay-payment-link">
+            <div class="gopaymethod">
+              <img src="../assets/Gopay_logo.png" />
+            </div>
+            <h4>Gopay</h4>
+          </a>
+          <h4>───────────────────────────────────────────────────────</h4>
+          <div class="danamethod">
+            <img src="../assets/dana.png" />
+          </div>
+          <h4>Dana</h4>
+          <h4>───────────────────────────────────────────────────────</h4>
+          <div class="linkmethod">
+            <img src="../assets/LinkAja 2.png" />
+          </div>
+          <h4>Link Aja</h4>
+        </div>
+        <div>
+          <img src="../assets/V.png" />
+        </div>
+      </div>
+
+      <div class="method6">
+        <h4>Retail Outlet</h4>
+        <div>
+          <img src="../assets/Retail Outlet.png" />
+          <img src="../assets/V.png" />
+        </div>
+      </div>
+    </main>
+
+    <footer>© 2023 PT. Travel Go Go Go. All Right Reserved.</footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.6/axios.min.js"
+      integrity="sha512-06NZg89vaTNvnFgFTqi/dJKFadQ6FIglD6Yg1HHWAUtVFFoXli9BZL4q4EO1UTKpOfCfW5ws2Z6gw49Swsilsg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="js/axios.js"></script>
+    <script src="js/user.js"></script>
+    <script src="pick-payment/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1014 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravGo</title>
+    <link rel="website icon" type="png" href="/Landing Page/Assets/Logo TravGo.png" />
+
+    <!-- BoxIcons v2.1.2 -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <!--bootsrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--my style-->
+    <link rel="stylesheet" href="/Landing Page/style.css" />
+  </head>
+  <body id="home">
+    <!--navbar-->
+    <nav
+      class="navbar navbar-expand-lg sticky-top shadow p-3 mb-5 bg-body-tertiary rounded"
+      id="navbar1"
+    >
+      <div class="container-xl">
+        <a class="navbar-brand" href="#"
+          ><img src="/Landing Page/Assets/LOGO TRAVGO 2 4.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-center d-none" data-js="nav-user-state">
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#">Favorites</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="/PageUser/booking.html">My Booking</a>
+            </li>
+            <li
+              class="nav-item me-4 user-name-text ms-auto d-flex align-items-center"
+              data-js="user-name-text"
+            >
+              <a class="nav-link" href="/PageUser/profile.html">
+                <!-- put user name here in JS -->
+              </a>
+              <img
+                class="profile-picture"
+                src="../assets/admin-pp.png"
+                width="40px"
+                height="40px"
+              />
+            </li>
+          </ul>
+          <div data-js="nav-guest-state" class="d-none">
+            <button class="button-primary me-2" id="login-btn">Sign In</button>
+            <button class="button-secondary" id="signup-btn">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--navbar end-->
+
+    <!--top content start-->
+    <div class="container-lg" id="topContent">
+      <h1>Connecting Your Journeys</h1>
+      <h4 class="my-4">Explore the world and have a wider experience.</h4>
+      <button class="button-3">Booking Now</button>
+    </div>
+    <!--top content end-->
+
+    <!--promo start-->
+    <div class="container-lg" id="contentPromo">
+      <div class="row">
+        <div class="col-3">
+          <h1 class="fw-bolder">Take this promo at TravGo, make your trip go go go!</h1>
+          <button class="button-promo">More Promo</button>
+        </div>
+
+        <div class="col-9">
+          <div class="slider-wrapper">
+            <button class="prev">
+              <i class="bx bx-chevron-left"></i>
+            </button>
+
+            <div class="slider-inner">
+              <div class="slider-item">
+                <img src="/Landing Page/Assets/Rectangle 24.png" alt="..." />
+                <div class="overlay">
+                  <h1 class="mb-0">Debit</h1>
+                  <h1>Bank Mandiri</h1>
+                </div>
+              </div>
+              <div class="slider-item">
+                <img src="/Landing Page/Assets/Rectangle 25.png" alt="..." />
+                <div class="overlay">
+                  <h1 class="mb-0">Credit Card</h1>
+                  <h1>Bank Permata</h1>
+                </div>
+              </div>
+              <div class="slider-item">
+                <img src="/Landing Page/Assets/Rectangle 26.png" alt="..." />
+                <div class="overlay">
+                  <h1>Gopay</h1>
+                </div>
+              </div>
+              <div class="slider-item">
+                <img src="/Landing Page/Assets/Rectangle 26.png" alt="..." />
+                <div class="overlay">
+                  <h1>Gopay</h1>
+                </div>
+              </div>
+            </div>
+
+            <button class="next">
+              <i class="bx bx-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--promo end-->
+
+    <!--deals start-->
+    <div class="container-lg" id="deals">
+      <div class="row">
+        <div class="col-9"><h1>Good Deals!</h1></div>
+        <div class="col-3"></div>
+      </div>
+      <div class="row" id="deals1">
+        <div class="col">
+          <div class="card-slider">
+            <div class="card-wrapper">
+              <div class="card">
+                <img src="/Landing Page/Assets/Rectangle slid.png" />
+
+                <div class="hotel">
+                  <h3>Pamulang Hotel <span class="score">4.5</span></h3>
+                  <p>
+                    <img src="/Landing Page/Assets/maps.png" alt="" />Pamulang, South Tangerang
+                    <i><img src="/Landing Page/Assets/star.png" alt="" /></i>
+                  </p>
+                </div>
+                <div class="harga">
+                  <span>IDR 399.000</span>
+                  <h5>IDR 99.000</h5>
+                </div>
+                <div class="btns">
+                  <button onclick="Toggle1()" id="btnh1" class="btn11">
+                    <img src="/Landing Page/Assets/love.png" alt="" />
+                  </button>
+                </div>
+                <div class="expand">
+                  <button class="btnExp">
+                    <img src="/Landing Page/Assets/expand-black.png" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="/Landing Page/Assets/Rectangle slid.png" />
+                <div class="hotel">
+                  <h3>Pamulang Hotel <span class="score">4.5</span></h3>
+                  <p>
+                    <img src="/Landing Page/Assets/maps.png" alt="" />Pamulang, South Tangerang
+                    <i><img src="/Landing Page/Assets/star.png" alt="" /></i>
+                  </p>
+                </div>
+                <div class="harga">
+                  <span>IDR 399.000</span>
+                  <h5>IDR 99.000</h5>
+                </div>
+                <div class="btns">
+                  <button onclick="Toggle2()" id="btnh2" class="btn11">
+                    <img src="/Landing Page/Assets/love.png" alt="" />
+                  </button>
+                </div>
+                <div class="expand">
+                  <button class="btnExp">
+                    <img src="/Landing Page/Assets/expand-black.png" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="/Landing Page/Assets/Rectangle slid.png" />
+                <div class="hotel">
+                  <h3>Pamulang Hotel <span class="score">4.5</span></h3>
+                  <p>
+                    <img src="/Landing Page/Assets/maps.png" alt="" />Pamulang, South Tangerang
+                    <i><img src="/Landing Page/Assets/star.png" alt="" /></i>
+                  </p>
+                </div>
+                <div class="harga">
+                  <span>IDR 399.000</span>
+                  <h5>IDR 99.000</h5>
+                </div>
+                <div class="btns">
+                  <button onclick="Toggle3()" id="btnh3" class="btn11">
+                    <img src="/Landing Page/Assets/love.png" alt="" />
+                  </button>
+                </div>
+                <div class="expand">
+                  <button class="btnExp">
+                    <img src="/Landing Page/Assets/expand-black.png" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="/Landing Page/Assets/Rectangle slid.png" />
+                <div class="hotel">
+                  <h3>Pamulang Hotel <span class="score">4.5</span></h3>
+                  <p>
+                    <img src="/Landing Page/Assets/maps.png" alt="" />Pamulang, South Tangerang
+                    <i><img src="/Landing Page/Assets/star.png" alt="" /></i>
+                  </p>
+                </div>
+                <div class="harga">
+                  <span>IDR 399.000</span>
+                  <h5>IDR 99.000</h5>
+                </div>
+                <div class="btns">
+                  <button onclick="Toggle4()" id="btnh4" class="btn11">
+                    <img src="/Landing Page/Assets/love.png" alt="" />
+                  </button>
+                </div>
+                <div class="expand">
+                  <button class="btnExp">
+                    <img src="/Landing Page/Assets/expand-black.png" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="/Landing Page/Assets/Rectangle slid.png" />
+                <div class="hotel">
+                  <h3>Pamulang Hotel <span class="score">4.5</span></h3>
+                  <p>
+                    <img src="/Landing Page/Assets/maps.png" alt="" />Pamulang, South Tangerang
+                    <i><img src="/Landing Page/Assets/star.png" alt="" /></i>
+                  </p>
+                </div>
+                <div class="harga">
+                  <span>IDR 399.000</span>
+                  <h5>IDR 99.000</h5>
+                </div>
+                <div class="btns">
+                  <button onclick="Toggle5()" id="btnh5" class="btn11">
+                    <img src="/Landing Page/Assets/love.png" alt="" />
+                  </button>
+                </div>
+                <div class="expand">
+                  <button class="btnExp">
+                    <img src="/Landing Page/Assets/expand-black.png" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="/Landing Page/Assets/Rectangle slid.png" />
+                <div class="hotel">
+                  <h3>Pamulang Hotel <span class="score">4.5</span></h3>
+                  <p>
+                    <img src="/Landing Page/Assets/maps.png" alt="" />Pamulang, South Tangerang
+                    <i><img src="/Landing Page/Assets/star.png" alt="" /></i>
+                  </p>
+                </div>
+                <div class="harga">
+                  <span>IDR 399.000</span>
+                  <h5>IDR 99.000</h5>
+                </div>
+                <div class="btns">
+                  <button onclick="Toggle6()" id="btnh6" class="btn11">
+                    <img src="/Landing Page/Assets/love.png" alt="" />
+                  </button>
+                </div>
+                <div class="expand">
+                  <button class="btnExp">
+                    <img src="/Landing Page/Assets/expand-black.png" alt="" />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <button class="prev-btn">
+              <img src="/Landing Page/Assets/arrow-left.png" alt="" />
+            </button>
+            <button class="next-btn">
+              <img src="/Landing Page/Assets/arrow-right.png" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--deals end-->
+
+    <!-- navbar inner start -->
+    <nav class="navbar navbar-expand-lg" id="navbar2">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link menu active" aria-current="page" id="recommendation" href=""
+                >Recommendation</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menu" id="Flights" href="">Flights</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menu" href="#">Trains</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menu" href="#">Bus</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menu" href="#">Hotels</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menu" href="#">Events</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar inner end -->
+
+    <div id="content">
+      <!-- recommendation start -->
+      <div class="container mt-3" id="recomm">
+        <div class="row">
+          <div class="col">
+            <h3>Recommendation for a fun outing</h3>
+            <span>Explore iconic attraction around you! Great discounts await.</span>
+          </div>
+        </div>
+        <div class="row" id="recomm0">
+          <div class="col">
+            <div class="card-slider2">
+              <div class="card-wrapper2">
+                <div class="card2">
+                  <div class="wisata">
+                    <h4>Ranca Upas</h4>
+                    <span>Bandung, West Java</span>
+                  </div>
+                  <div class="btns1">
+                    <button onclick="Toggle7()" id="btnc2" class="btn12">
+                      <img src="/Landing Page/Assets/love.png" alt="" />
+                    </button>
+                  </div>
+                  <div class="expand1">
+                    <button class="btnExp1">
+                      <img src="/Landing Page/Assets/expand-more-rounded.png" alt="" />
+                    </button>
+                  </div>
+                </div>
+                <div class="card2">
+                  <div class="wisata">
+                    <h4>Ranca Upas</h4>
+                    <span>Bandung, West Java</span>
+                  </div>
+                  <div class="btns1">
+                    <button onclick="Toggle8()" id="btnc3" class="btn12">
+                      <img src="/Landing Page/Assets/love.png" alt="" />
+                    </button>
+                  </div>
+                  <div class="expand1">
+                    <button class="btnExp1">
+                      <img src="/Landing Page/Assets/expand-more-rounded.png" alt="" />
+                    </button>
+                  </div>
+                </div>
+                <div class="card2">
+                  <div class="wisata">
+                    <h4>Ranca Upas</h4>
+                    <span>Bandung, West Java</span>
+                  </div>
+                  <div class="btns1">
+                    <button onclick="Toggle9()" id="btnc4" class="btn12">
+                      <img src="/Landing Page/Assets/love.png" alt="" />
+                    </button>
+                  </div>
+                  <div class="expand1">
+                    <button class="btnExp1">
+                      <img src="/Landing Page/Assets/expand-more-rounded.png" alt="" />
+                    </button>
+                  </div>
+                </div>
+                <div class="card2">
+                  <div class="wisata">
+                    <h4>Ranca Upas</h4>
+                    <span>Bandung, West Java</span>
+                  </div>
+                  <div class="btns1">
+                    <button onclick="Toggle10()" id="btnc5" class="btn12">
+                      <img src="/Landing Page/Assets/love.png" alt="" />
+                    </button>
+                  </div>
+                  <div class="expand1">
+                    <button class="btnExp1">
+                      <img src="/Landing Page/Assets/expand-more-rounded.png" alt="" />
+                    </button>
+                  </div>
+                </div>
+                <i id="left" class="fa-left"
+                  ><img src="/Landing Page/Assets/arrow-left.png" alt=""
+                /></i>
+                <i id="right" class="fa-right"
+                  ><img src="/Landing Page/Assets/arrow-right.png" alt=""
+                /></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container mt-3" id="recomm1">
+          <div class="row">
+            <div class="col mt-2 mb-2">
+              <h3>Comfy stay in the town</h3>
+              <span
+                >Let's have a staycation at these favorite domestic hotels. Stay comfy, save
+                more!</span
+              >
+            </div>
+          </div>
+          <div class="row mt-2" id="imgslider1">
+            <div class="col">
+              <div class="card-slider1">
+                <div class="card-wapper1 d-flex">
+                  <div class="card1">
+                    <div class="hotels1">
+                      <h4>Novotel Hotel</h4>
+                      <span>Ancol, North Jakarta</span>
+                    </div>
+                    <div class="btns2">
+                      <button onclick="Toggle11()" id="btnc6" class="btn13">
+                        <img src="/Landing Page/Assets/love.png" alt="" />
+                      </button>
+                    </div>
+                    <div class="expand2">
+                      <button class="btnExp2">
+                        <img src="/Landing Page/Assets/expand-more-rounded.png" alt="" />
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card1">
+                    <div class="hotels1">
+                      <h4>Novotel Hotel</h4>
+                      <span>Ancol, North Jakarta</span>
+                    </div>
+                    <div class="btns2">
+                      <button onclick="Toggle12()" id="btnc7" class="btn13">
+                        <img src="/Landing Page/Assets/love.png" alt="" />
+                      </button>
+                    </div>
+                    <div class="expand2">
+                      <button class="btnExp2">
+                        <img src="/Landing Page/Assets/expand-more-rounded.png" alt="" />
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card1">
+                    <div class="hotels1">
+                      <h4>Novotel Hotel</h4>
+                      <span>Ancol, North Jakarta</span>
+                    </div>
+                    <div class="btns2">
+                      <button onclick="Toggle13()" id="btnc8" class="btn13">
+                        <img src="/Landing Page/Assets/love.png" alt="" />
+                      </button>
+                    </div>
+                    <div class="expand2">
+                      <button class="btnExp2">
+                        <img src="/Landing Page/Assets/expand-more-rounded.png" alt="" />
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card1">
+                    <div class="hotels1">
+                      <h4>Novotel Hotel</h4>
+                      <span>Ancol, North Jakarta</span>
+                    </div>
+                    <div class="btns2">
+                      <button onclick="Toggle14()" id="btnc9" class="btn13">
+                        <img src="/Landing Page/Assets/love.png" alt="" />
+                      </button>
+                    </div>
+                    <div class="expand2">
+                      <button class="btnExp2">
+                        <img src="/Landing Page/Assets/expand-more-rounded.png" alt="" />
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card1">
+                    <div class="hotels1">
+                      <h4>Novotel Hotel</h4>
+                      <span>Ancol, North Jakarta</span>
+                    </div>
+                    <div class="btns2">
+                      <button onclick="Toggle15()" id="btnc10" class="btn13">
+                        <img src="/Landing Page/Assets/love.png" alt="" />
+                      </button>
+                    </div>
+                    <div class="expand2">
+                      <button class="btnExp2">
+                        <img src="/Landing Page/Assets/expand-more-rounded.png" alt="" />
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card1">
+                    <div class="hotels1">
+                      <h4>Novotel Hotel</h4>
+                      <span>Ancol, North Jakarta</span>
+                    </div>
+                    <div class="btns2">
+                      <button onclick="Toggle16()" id="btnc11" class="btn13">
+                        <img src="/Landing Page/Assets/love.png" alt="" />
+                      </button>
+                    </div>
+                    <div class="expand2">
+                      <button class="btnExp2">
+                        <img src="/Landing Page/Assets/expand-more-rounded.png" alt="" />
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card1">
+                    <div class="hotels1">
+                      <h4>Novotel Hotel</h4>
+                      <span>Ancol, North Jakarta</span>
+                    </div>
+                    <div class="btns2">
+                      <button onclick="Toggle17()" id="btnc12" class="btn13">
+                        <img src="/Landing Page/Assets/love.png" alt="" />
+                      </button>
+                    </div>
+                    <div class="expand2">
+                      <button class="btnExp2">
+                        <img src="/Landing Page/Assets/expand-more-rounded.png" alt="" />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <button class="prev-btn">
+                  <img src="/Landing Page/Assets/arrow-left.png" alt="" />
+                </button>
+                <button class="next-btn">
+                  <img src="/Landing Page/Assets/arrow-right.png" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container mt-3 mb-5" id="recomm2">
+          <div class="row">
+            <div class="col mt-2 mb-2">
+              <h3>Attractive promotions to make traveling even more fun!</h3>
+              <span>Order on TravGo and pay using LinkAja, it's definitely going to go go go!</span>
+            </div>
+          </div>
+          <div class="row mt-2" id="imgslider2">
+            <div class="col">
+              <div class="card-slider2">
+                <div class="card-wapper2 d-flex">
+                  <div class="card2">
+                    <div class="hotels2">
+                      <h4>Ibis Trans Studio</h4>
+                      <span>Bandung, West Java</span>
+                    </div>
+                    <div class="btns3">
+                      <button onclick="Toggle18()" id="btnc13" class="btn14">
+                        <img src="/Landing Page/Assets/love.png" alt="" />
+                      </button>
+                    </div>
+                    <div class="expand3">
+                      <button class="btnExp3">
+                        <img src="/Landing Page/Assets/expand-more-rounded.png" alt="" />
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card2">
+                    <div class="hotels2">
+                      <h4>Ibis Trans Studio</h4>
+                      <span>Bandung, West Java</span>
+                    </div>
+                    <div class="btns3">
+                      <button onclick="Toggle19()" id="btnc14" class="btn14">
+                        <img src="/Landing Page/Assets/love.png" alt="" />
+                      </button>
+                    </div>
+                    <div class="expand3">
+                      <button class="btnExp3">
+                        <img src="/Landing Page/Assets/expand-more-rounded.png" alt="" />
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card2">
+                    <div class="hotels2">
+                      <h4>Ibis Trans Studio</h4>
+                      <span>Bandung, West Java</span>
+                    </div>
+                    <div class="btns3">
+                      <button onclick="Toggle20()" id="btnc15" class="btn14">
+                        <img src="/Landing Page/Assets/love.png" alt="" />
+                      </button>
+                    </div>
+                    <div class="expand3">
+                      <button class="btnExp3">
+                        <img src="/Landing Page/Assets/expand-more-rounded.png" alt="" />
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card2">
+                    <div class="hotels2">
+                      <h4>Ibis Trans Studio</h4>
+                      <span>Bandung, West Java</span>
+                    </div>
+                    <div class="btns3">
+                      <button onclick="Toggle21()" id="btnc16" class="btn14">
+                        <img src="/Landing Page/Assets/love.png" alt="" />
+                      </button>
+                    </div>
+                    <div class="expand3">
+                      <button class="btnExp3">
+                        <img src="/Landing Page/Assets/expand-more-rounded.png" alt="" />
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card2">
+                    <div class="hotels2">
+                      <h4>Ibis Trans Studio</h4>
+                      <span>Bandung, West Java</span>
+                    </div>
+                    <div class="btns3">
+                      <button onclick="Toggle22()" id="btnc17" class="btn14">
+                        <img src="/Landing Page/Assets/love.png" alt="" />
+                      </button>
+                    </div>
+                    <div class="expand3">
+                      <button class="btnExp3">
+                        <img src="/Landing Page/Assets/expand-more-rounded.png" alt="" />
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card2">
+                    <div class="hotels2">
+                      <h4>Ibis Trans Studio</h4>
+                      <span>Bandung, West Java</span>
+                    </div>
+                    <div class="btns3">
+                      <button onclick="Toggle23()" id="btnc18" class="btn14">
+                        <img src="/Landing Page/Assets/love.png" alt="" />
+                      </button>
+                    </div>
+                    <div class="expand3">
+                      <button class="btnExp3">
+                        <img src="/Landing Page/Assets/expand-more-rounded.png" alt="" />
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card2">
+                    <div class="hotels2">
+                      <h4>Ibis Trans Studio</h4>
+                      <span>Bandung, West Java</span>
+                    </div>
+                    <div class="btns3">
+                      <button onclick="Toggle24()" id="btnc19" class="btn14">
+                        <img src="/Landing Page/Assets/love.png" alt="" />
+                      </button>
+                    </div>
+                    <div class="expand3">
+                      <button class="btnExp3">
+                        <img src="/Landing Page/Assets/expand-more-rounded.png" alt="" />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <button class="prev-btn">
+                  <img src="/Landing Page/Assets/arrow-left.png" alt="" />
+                </button>
+                <button class="next-btn">
+                  <img src="/Landing Page/Assets/arrow-right.png" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- recommendation end -->
+
+      <div id="all-flight-content" class="d-none">
+        <div class="container mt-4 d-grid" id="flightContent">
+          <div class="row">
+            <div class="col-5 align-self-end">
+              <img src="/Landing Page/Assets/flights 1.png" alt="" />
+            </div>
+            <div class="col-5">
+              <h1>Find and Book A Great Experience</h1>
+              <form class="d-flex flex-row search-form">
+                <div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input flight-option"
+                      type="radio"
+                      name="inlineRadioOptions"
+                      id="inlineRadio1"
+                      value="roundTrip"
+                    />
+                    <label class="form-check-label" for="inlineRadio1">Round Trip</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input flight-option"
+                      type="radio"
+                      name="inlineRadioOptions"
+                      id="inlineRadio2"
+                      value="oneWay"
+                    />
+                    <label class="form-check-label" for="inlineRadio2">One-Way</label>
+                  </div>
+
+                  <!-- input start -->
+                  <div class="input-full d-flex">
+                    <div class="input-section me-3">
+                      <h2>From</h2>
+                      <input
+                        type="text"
+                        id="left-input"
+                        placeholder="Where are you from?"
+                        name="fromPlace"
+                      />
+                    </div>
+
+                    <div class="input-section ms-5">
+                      <h2>To</h2>
+                      <input
+                        type="text"
+                        id="right-input"
+                        placeholder="Where are you go?"
+                        name="toPlace"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="input2 d-flex">
+                    <div class="depart">
+                      <div class="input-section">
+                        <h2>DEPART</h2>
+                        <input type="date" lang="en" id="depart" name="depart" placeholder="" />
+                      </div>
+                    </div>
+                    <div class="return">
+                      <div class="input-section">
+                        <h2>RETURN</h2>
+                        <input type="date" lang="en" id="return" placeholder="" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="input3 d-flex">
+                    <div class="passenger">
+                      <div class="input-section">
+                        <h2>PASSENGER</h2>
+                        <input type="text" id="passenger" placeholder="Adult/Kid" />
+                      </div>
+                    </div>
+                    <div class="kelas">
+                      <div class="input-section">
+                        <h2>Class</h2>
+                        <input type="text" name="class" id="kelas" placeholder="Economy/Business" />
+                      </div>
+                    </div>
+                  </div>
+                  <!-- input end -->
+                </div>
+                <div class="ms-3 col-2 align-self-end">
+                  <div class="search">
+                    <button class="bg-transparent border-0" type="submit">
+                      <img src="/Landing Page/Assets/search.png" alt="" />
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- perjalanan start -->
+        <div class="d-flex justify-content-center">
+          <div class="spinner-border mt-5 text-primary flight-spinner d-none mb-5" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+
+        <div class="container mt-5 flights-result d-none" id="flightContent2">
+          <div class="perjalanan">
+            <div class="row">
+              <div class="col">
+                <div class="mula">
+                  <h3 class="from-place">Denpasar</h3>
+                  <span class="from-place-small">Bali</span>
+                </div>
+              </div>
+              <div class="col">
+                <div class="tujuan">
+                  <h3 class="to-place">Ambon</h3>
+                  <span class="to-place-small">Ambon</span>
+                </div>
+              </div>
+            </div>
+            <div class="imgjln">
+              <img src="/Landing Page/Assets/Group 113.png" alt="" />
+            </div>
+          </div>
+
+          <div class="row mt-5">
+            <div class="col">
+              <h4>Showing <span class="total-result">3</span> best flights with best deals</h4>
+            </div>
+            <div class="col text-end">
+              <h4>Sort By <img src="/Landing Page/Assets/filter.png" alt="" /></h4>
+            </div>
+          </div>
+
+          <div class="flights">
+            <!-- INI CONTOH CARD TICKET -->
+            <!-- <div class="container mb-4" id="tiket">
+            <div class="row ms-2">
+              <div class="col">
+                <img src="/Landing Page/Assets/Garuda Indonesia (1) 1.png" alt="" />
+              </div>
+              <div class="col text-end">
+                <h3>IDR 2.192.000<span>/pax</span></h3>
+              </div>
+            </div>
+            <div class="card-row mt-4 ms-3 d-flex">
+              <div class="card-item">
+                <h5>04:10 pm</h5>
+                <span>DPS</span>
+              </div>
+              <div class="card-item mx-2">
+                <img src="/Landing Page/Assets/airplane-takeoff.png" alt="" />
+                <hr />
+                <p>16h 40m</p>
+              </div>
+              <div class="card-item text-end">
+                <h5>08:50 am</h5>
+                <span>AMQ</span>
+              </div>
+            </div>
+          </div> -->
+          </div>
+
+          <div class="container mb-4" id="benefits">
+            <div class="benefits-content">
+              <div class="row">
+                <div class="col ms-3">
+                  <h3>Join to Get More Benefits!</h3>
+                  <span>Enjoy discounts and free facilities by having an account.</span>
+                </div>
+                <div class="col">
+                  <button>Join Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- perjalanan end -->
+
+        <!-- ticket start -->
+        <div class="container" id="flightContent3"></div>
+        <!-- ticket end -->
+      </div>
+    </div>
+
+    <!--footer-->
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-3 mt-3">
+            <img src="/Landing Page/Assets/LOGO TRAVGO 2 2.png" alt="" />
+            <div class="mt-3 ps-4">
+              <h6><img src="/Landing Page/Assets/ri_whatsapp-fill.png" alt="" /> 0858 1150 0888</h6>
+              <h6><img src="/Landing Page/Assets/basil_gmail-solid.png" alt="" /> cs@travgo.com</h6>
+              <h6>
+                <img src="/Landing Page/Assets/fluent-emoji-high-contrast_telephone.png" alt="" />
+                +6221 1500 878
+              </h6>
+            </div>
+          </div>
+          <div class="col-2">
+            <h5>About TravGo</h5>
+            <p>
+              <a href="#">Blog</a>
+            </p>
+            <p>
+              <a href="#">Career</a>
+            </p>
+            <p>
+              <a href="#">Corporate</a>
+            </p>
+            <p>
+              <a href="#">Partner</a>
+            </p>
+            <p>
+              <a href="#">Installment</a>
+            </p>
+            <p>
+              <a href="#">About Us</a>
+            </p>
+          </div>
+          <div class="col-2" id="product">
+            <h5>Product</h5>
+            <p>
+              <a href="#">Flights</a>
+            </p>
+            <p>
+              <a href="#">Hotels</a>
+            </p>
+            <p>
+              <a href="#">Trains</a>
+            </p>
+            <p>
+              <a href="#">Bus</a>
+            </p>
+            <p>
+              <a href="#">Events</a>
+            </p>
+          </div>
+          <div class="col-2">
+            <h5>Support</h5>
+            <p>
+              <a href="#">Help Center</a>
+            </p>
+            <p>
+              <a href="#">Privacy Policy</a>
+            </p>
+            <p>
+              <a href="#">Terms & Conditions</a>
+            </p>
+            <p>
+              <a href="#">Register Your Hotel</a>
+            </p>
+            <p>
+              <a href="#">Register Your Events</a>
+            </p>
+          </div>
+          <div class="col-3">
+            <div class="ms-5">
+              <h5>Download TavGo Apps</h5>
+              <div class="d-grid">
+                <img src="/Landing Page/Assets/googleplay.png" alt="" />
+                <img src="/Landing Page/Assets/appstore.png" alt="" />
+              </div>
+              <h5 class="mt-3 mb-2">Follow Us</h5>
+              <img src="/Landing Page/Assets/uil_twitter.png" alt="" />
+              <img src="/Landing Page/Assets/icons_facebook-fill.png" alt="" />
+              <img src="/Landing Page/Assets/instagram-solid.png" alt="" />
+              <img src="/Landing Page/Assets/mdi_youtube.png" alt="" />
+            </div>
+          </div>
+          <hr size="8" />
+          <div class="copyright text-center">
+            <p>© 2023 PT. Travel Go Go Go. All Right Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.6/axios.min.js"
+      integrity="sha512-06NZg89vaTNvnFgFTqi/dJKFadQ6FIglD6Yg1HHWAUtVFFoXli9BZL4q4EO1UTKpOfCfW5ws2Z6gw49Swsilsg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/Landing Page/script.js"></script>
+    <script src="/Landing Page/flights.js" type="module"></script>
+    <script src="js/axios.js"></script>
+    <script src="js/user.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

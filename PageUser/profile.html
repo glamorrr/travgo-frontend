@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="website icon" type="png" href="/Profile/Assets/Logo TravGo.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- BoxIcons v2.1.2 -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <!--bootsrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <!--my style-->
+    <link rel="stylesheet" href="style.css" />
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container" id="profile">
+      <div class="row">
+        <div class="col-md-2">
+          <div class="upload">
+            <img src="/PageUser/Assets/Ellipse 18.png" width="109" height="109" alt="" />
+            <div class="round">
+              <input type="file" />
+              <i class="fa fa-camera" style="color: #fff"></i>
+            </div>
+          </div>
+
+          <div class="namaProfile text-center">
+            <h5>Park Sungjin</h5>
+            <h6>Verified <img src="/PageUser/Assets/verif.png" alt="" /></h6>
+          </div>
+
+          <div class="menu-profile mt-3" id="menuProfile">
+            <h5>Menu</h5>
+            <div class="menu1">
+              <a class="nav-link menu2 active" href=""
+                ><span class="material-symbols-outlined"> account_box </span>
+                <h6>Account</h6>
+              </a>
+            </div>
+            <div class="menu1">
+              <a class="nav-link menu2" href=""
+                ><span class="material-symbols-outlined"> order_approve </span>
+                <h6>My Booking</h6>
+              </a>
+            </div>
+            <div class="menu1">
+              <a class="nav-link menu2" href=""
+                ><span class="material-symbols-outlined"> book </span>
+                <h6>Favorites</h6>
+              </a>
+            </div>
+            <hr />
+            <div class="menu1">
+              <a class="nav-link menu2" href=""
+                ><span class="material-symbols-outlined"> currency_exchange </span>
+                <h6>Refund List</h6>
+              </a>
+            </div>
+            <div class="menu1">
+              <a class="nav-link menu2" href=""
+                ><span class="material-symbols-outlined"> rate_review </span>
+                <h6>My Review</h6>
+              </a>
+            </div>
+            <hr />
+            <div class="menu1">
+              <a class="nav-link menu2" href=""
+                ><span class="material-symbols-outlined"> loyalty </span>
+                <h6>Loyalty Program</h6>
+              </a>
+            </div>
+            <div class="menu1">
+              <a class="nav-link menu2" href=""
+                ><span class="material-symbols-outlined"> settings </span>
+                <h6>Setting</h6>
+              </a>
+            </div>
+            <div class="menu1">
+              <a class="nav-link menu2" href=""
+                ><span class="material-symbols-outlined"> forum </span>
+                <h6>Help Center</h6>
+              </a>
+            </div>
+            <hr />
+            <div class="menu1">
+              <a class="nav-link menu2 mb-4" href="">
+                <span class="material-symbols-outlined"> logout </span>
+                <h6>Log Out</h6>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="row ms-4 akun0">
+            <div class="top-akun">
+              <h4>Account Details</h4>
+              <span>Here you can set your account details.</span>
+            </div>
+            <div class="col akun1">
+              <div class="akun-title mt-3">
+                <h5>Title</h5>
+                <div class="input-group mb-3">
+                  <select class="form-select" id="inputGroupSelect01">
+                    <option value="1">Tn</option>
+                    <option value="2">Ms</option>
+                  </select>
+                </div>
+              </div>
+              <div class="mb-3">
+                <h5>First Name</h5>
+                <input type="text" class="form-control" id="firstName" placeholder="" />
+              </div>
+              <div class="mb-3">
+                <h5>Last Name</h5>
+                <input type="text" class="form-control" id="lastName" placeholder="" />
+              </div>
+              <div class="mb-3">
+                <h5>Place and Date of Birth</h5>
+                <div class="d-flex">
+                  <input type="text" class="form-control" id="kota" placeholder="" /><input
+                    type="date"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+              <div class="mb-3">
+                <h5>Identity Number (KTP)</h5>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <div class="col akun2">
+              <div class="akun-verif">
+                <div class="mb-3">
+                  <h5>Email</h5>
+                  <input type="email" class="form-control" id="email" placeholder="" />
+                </div>
+                <div class="mb-3">
+                  <h5>Phone Number</h5>
+                  <input type="tel" class="form-control" id="phoneNumber" placeholder="" />
+                </div>
+              </div>
+              <a href="">Change Password?</a>
+              <button>Save</button>
+            </div>
+          </div>
+          <a data-js="logout-button" class="btn btn-danger ms-4 mt-4" href="#">Logout</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- script -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.6/axios.min.js"
+      integrity="sha512-06NZg89vaTNvnFgFTqi/dJKFadQ6FIglD6Yg1HHWAUtVFFoXli9BZL4q4EO1UTKpOfCfW5ws2Z6gw49Swsilsg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="../js/axios.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
