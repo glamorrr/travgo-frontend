@@ -63,7 +63,7 @@ async function onSubmit(e) {
 }
 
 async function getFlights(options) {
-  const res = await axios.get('http://localhost:3000/flights', options);
+  const res = await axios.get('https://api.travgo.my.id/flights', options);
   return res.data;
 }
 

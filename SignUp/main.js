@@ -24,7 +24,7 @@ form.addEventListener('submit', (event) => {
   const data = { email, password, phoneNumber: phone };
 
   axios
-    .post('http://localhost:3000/auth/register', data)
+    .post('https://api.travgo.my.id/auth/register', data)
     .then((data) => {
       localStorage.setItem('showSuccessSignupToast', true);
       window.location.href = '/login.html';

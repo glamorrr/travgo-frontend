@@ -221,7 +221,7 @@
       const password = form.password.value;
 
       axios
-        .post('http://localhost:3000/auth/login', { email, password })
+        .post('https://api.travgo.my.id/auth/login', { email, password })
         .then((data) => {
           localStorage.setItem('showSuccessLoginToast', true);
           window.location.href = '/index.html';
